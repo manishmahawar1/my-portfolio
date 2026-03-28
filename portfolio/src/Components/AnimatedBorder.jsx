@@ -4,7 +4,7 @@ import { Download } from 'lucide-react'
 const AnimatedBorder = () => {
     return (
 
-        <a href="http://localhost:5173/Manish_Resume.pdf" target='_blank' rel="noopener noreferrer">
+        <a href="/Manish_Resume.pdf" target='_blank' rel="noopener noreferrer">
             <button className='relative bg-transparent border border-[var(--color-border)] rounded-full text-[var(--color-foreground)] hover:border-[var(--color-primary)] transition-all duration-1000 focus:outline-none focus-visible:ring-2 focus-visible:ring-[var(--color-primary)] focus-visible:ring-offset-2 disabled:opacity-50 disabled:cursor-not-allowed group px-8 py-4 text-lg font-medium  overflow-visible animated-border '>
                 {/* SVG Border */}
                 <svg
